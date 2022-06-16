@@ -13,5 +13,4 @@ ClothEs AR es un ecommerce de venta de ropa en Argentina, realizado con ReactJS
 ## Realizado hasta ahora
 *Los cambios estan versionados en el archivo CHANGELOG.md*
 - Creación de estructura de React APP con CRA (Create-React-App)
-- Integración de Bootstrap (Momentaneamente)
-- Creación del componente *NavBar*
+- Creación del componente *NavBar* (Con CSS Puro)

@@ -1,0 +1,55 @@
+// Para poder utilizar archivos con extensión .scss, se tuvo que ejecutar el comando 'npm install sass'
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &Brand {
+        font-size: 48px;
+        font-weight: 700;
+        transition: 0.4s;
+        &:hover{
+            opacity: 0.5;
+        }
+    }
+    &Links{
+        display: flex;
+    }
+    &Link{
+        margin-left: 60px;
+        font-size: 18px;
+        transition: 0.4s;
+        font-weight: 300;
+        &:hover{
+            opacity: 0.5;
+        }
+        &.active{
+            font-weight: 700;
+        }
+    }
+    &Input{
+        padding: 10px;
+        border: 1px #000 solid;
+        border-radius: 30px;
+    }
+    &Button{
+        margin-left: 5px;
+        padding: 8px 15px;
+        border-radius: 10px;
+        border: 2px #000 solid;
+        transition: 0.4s;
+        &:hover{
+            background-color: #000;
+            color: #FFF;
+        }
+    }
+    &Icon{
+        transition: 0.4s;
+        &:hover{
+            opacity: 0.5;
+        }
+        &:first-child{
+            margin-right: 20px;
+        }
+    }
+}
