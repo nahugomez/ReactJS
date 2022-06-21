@@ -3,10 +3,18 @@ Se detalla a continuación los cambios realizados en cada versión de ClothEs
 
 ---
 
-**V0.1:**
+**v0.1:**
 - Creación de estructura básica.
 
 ---
 
-**V0.2**
+**v0.2**
 - Creación de NavBar (Vista solo Desktop)
+
+
+---
+
+**v0.3**
+- Se agregó componente **CartWidget**, UserWidget, y Search al componente NavBar
+- Se agregó componente **ItemListContainer** con propiedad *greeting*
+- Modificación de favicon
