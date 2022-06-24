@@ -2,7 +2,7 @@ import './ItemListContainer.scss';
 
 const ItemListContainer = (props) => {
     return (
-        <p>
+        <p className='itemListTitle'>
             {props.greeting}
         </p>
     );

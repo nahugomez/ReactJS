@@ -1,0 +1,41 @@
+.itemCount {
+
+    padding: 30px;
+    border: 2px solid #000;
+    border-radius: 20px;
+
+    &Content {
+        // Estas propiedades son provisorias, se realizaron únicamente con fin de mostrarlo en medio de la pantalla
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    &Name {
+        text-align: center;
+        font-weight: 700;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    &Controls {
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid #000;
+        padding: 0px 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    &Button {
+        padding: 5px 15px;
+        border: 2px solid #000;
+        border-radius: 20px;
+        transition: 0.4s;
+
+        &:hover {
+            color: #FFF;
+            background-color: #000;
+        }
+    }
+}

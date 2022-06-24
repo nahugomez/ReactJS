@@ -18,3 +18,8 @@ Se detalla a continuación los cambios realizados en cada versión de ClothEs
 - Se agregó componente **CartWidget**, UserWidget, y Search al componente NavBar
 - Se agregó componente **ItemListContainer** con propiedad *greeting*
 - Modificación de favicon
+
+---
+
+**v0.4**
+- Se agregó el componente **ItemCount**
