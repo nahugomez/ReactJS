@@ -1,0 +1,77 @@
+// Para poder utilizar archivos con extensión .scss, se tuvo que ejecutar el comando 'npm install sass'
+@import url('./normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Manrope', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  padding: 0;
+  outline: inherit;
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+p {
+  font: {
+    size: 16px;
+    weight: 300;
+  }
+
+  ;
+}
+
+h1 {
+  font: {
+    size: 56px;
+    weight: 700;
+  }
+
+  ;
+}
+
+h2 {
+  font: {
+    size: 48px;
+    weight: 700;
+  }
+}
+
+h3 {
+  font: {
+    size: 28px;
+    weight: 500;
+  }
+
+  ;
+}

@@ -23,3 +23,10 @@ Se detalla a continuación los cambios realizados en cada versión de ClothEs
 
 **v0.4**
 - Se agregó el componente **ItemCount**
+
+---
+
+**v0.5**
+- El componente ItemListContainer se encarga del manejo de la asincronía, y le pasa los items a ItemList
+- El nuevo componente ItemList muestra los Items (Utilizando MAP)
+- El nuevo componente Item es renderizado con las propiedades pasadas por ItemList
